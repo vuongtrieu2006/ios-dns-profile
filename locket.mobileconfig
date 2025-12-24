@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+    <string>ADB Block - ZuongTrieu</string>
+    <key>PayloadDescription</key>
+    <string>ADB Block (v1.0):
+- Chặn quảng cáo toàn hệ thống (Safari, App, YouTube ~90%)
+- Bảo vệ quyền riêng tư, chống theo dõi
+- Không hao pin vì dữ liệu chỉ chạy qua DNS này
+- Hỗ trợ iPhone, iPad, MacOS, tvOS
+- Hoạt động trên WiFi, 3G, 4G
+Support: ZuongTrieu | Config by: ZuongTrieu | Cộng đồng phimtat.vn</string>
+    <key>PayloadIdentifier</key>
+    <string>com.zuongtrieu.profile.system.001</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>6D383A99-AAAA-BBBB-CCCC-1234567890AB</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.zuongtrieu.profile.dns.001</string>
+            <key>PayloadUUID</key>
+            <string>6D383A00-1111-2222-3333-444455556666</string>
+            <key>PayloadDisplayName</key>
+            <string>ADB Block - ZuongTrieu</string>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>TLS</string>
+                <key>ServerAddresses</key>
+                <array>
+                    <string>45.90.28.0</string>
+                    <string>45.90.30.0</string>
+                </array>
+                <key>ServerName</key>
+                <string>bb475f.dns.nextdns.io</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
